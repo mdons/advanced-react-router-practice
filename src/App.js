@@ -1,9 +1,7 @@
 import React from "react";
 import TopNav from "./components/TopNav";
 import SideNav from "./components/SideNav";
-import BrowserRouter from "react-router-dom";
-import Switch from "react-router-dom";
-import Route from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import Charts from "./components/Charts";
 import Tables from "./components/Tables";
@@ -15,7 +13,7 @@ import Profile from "./components/Profile";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
         <div id="wrapper">
           <nav
@@ -39,7 +37,7 @@ function App() {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

@@ -13,14 +13,14 @@ function SideNav() {
           </Link>
         </li>
         <li>
-          <a href="charts.html">
+          <Link to="/charts">
             <i className="fa fa-fw fa-bar-chart-o" /> Charts
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="tables.html">
+          <Link to="/tables">
             <i className="fa fa-fw fa-table" /> Tables
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

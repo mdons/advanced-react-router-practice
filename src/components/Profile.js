@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 function Profile(props) {
   console.log(props);
   const userId = props.match.params.id;
-  const user = props.users.find(u => u.id == userId) || {};
+  const user = props.users.find(u => u.id === userId) || {};
   return (
     <div>
       <h3>

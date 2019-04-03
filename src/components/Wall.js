@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Wall() {
-  return <div />;
+  return <div>Wall</div>;
 }
