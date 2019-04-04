@@ -22,6 +22,36 @@ function SideNav() {
             <i className="fa fa-fw fa-table" /> Tables
           </Link>
         </li>
+        <li>
+          <Link to="/settings">
+            <i className="fa fa-fw fa-cog" /> Settings
+          </Link>
+        </li>
+        <li>
+          <Link to="/wall">
+            <i className="fa fa-fw fa-table" /> Wall
+          </Link>
+        </li>
+        <li>
+          <Link to="/profiles">
+            <i className="fa fa-fw fa-users" /> Profiles
+          </Link>
+        </li>
+        <li>
+          <Link to="/marquee/:text">
+            <i className="fa fa-fw fa-font" /> Marquee
+          </Link>
+        </li>
+        <li>
+          <Link to="/marquee/iloveroutes">
+            <i className="fa fa-fw fa-font" /> Marquee1
+          </Link>
+        </li>
+        <li>
+          <Link to="/marquee/reactrouterrules">
+            <i className="fa fa-fw fa-font" /> Marquee2
+          </Link>
+        </li>
       </ul>
     </div>
   );
